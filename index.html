@@ -8,17 +8,19 @@
   <body>
     <py-script>
 import time
+from js import *
 
 print("""Welcome to the Science Game!""")
+time.sleep(1)
 print("")
 print("""Answer questions. One wrong, and your out. Type the one lowercase letter.""")
+time.sleep(1)
 print("")
 print("""Q1) How do the intestines absorb nutrients?
 [a] Little worms
 [b] Strands with microscopic holes
 [c] Super Mold""")
-var2 = input('')
-print(var2)
+let var2 = prompt('');
 if var2=='b':
     print("""Q2) How what is dialysis tubing?
 [a] edible silicone tubes
